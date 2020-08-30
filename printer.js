@@ -1,28 +1,5 @@
 "use strict";
 
-// let printer = {
-//   paintAmount: 100,
-//   works: false,
-// };
-
-// function checkPaint() {
-//   if (printer.paintAmount < 10) {
-//     printer.paintAmount += 5;
-//     console.log(printer.paintAmount);
-//   } else {
-//     console.log(printer.paintAmount);
-//   }
-// }
-
-// function checkPrinterWorks() {
-//   if (printer.works == true) {
-//     console.log("Everything is OK, you can print!");
-//   } else {
-//     printer.works = true;
-//     console.log("Printer has been repaired!");
-//   }
-// }
-
 const printerPreview = document.querySelector('.preview'),
   printerProcess = document.querySelector('.process'),
   printerCrash = document.querySelector('.crash'),
@@ -70,8 +47,6 @@ function printProcess() {
     buttons[0].disabled = true;
     alert("Printer is broken, please repair it!");
   }
-
-
 }
 
 function printerRefill() {
